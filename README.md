@@ -8,7 +8,7 @@ It also implements a popular CNN architecture inception V3 for image quality ass
 
 
 To test on different image
-python image_label.py \
+python image_lable.py \
 --graph=/tmp/output_graph.pb --labels=/tmp/output_labels.txt \
 --input_layer=Placeholder \
 --output_layer=final_result \
