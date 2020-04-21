@@ -6,3 +6,11 @@ This project utilizes popular computer vision library cv2 and its subfuction gra
 It also implements a popular CNN architecture inception V3 for image quality assesment.
 
 
+
+To test on different image
+python image_label.py \
+--graph=/tmp/output_graph.pb --labels=/tmp/output_labels.txt \
+--input_layer=Placeholder \
+--output_layer=final_result \
+--image="image path"
+
